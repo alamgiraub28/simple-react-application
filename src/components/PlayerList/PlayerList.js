@@ -1,4 +1,4 @@
-import { faFutbol } from '@fortawesome/free-solid-svg-icons';
+import { faBowlingBall } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import css from './PlayerList.css';
@@ -18,7 +18,7 @@ const {name, salary, image} = props.player;
                 <button className="btn btn-success pointer"
                 onClick ={()=> props.handleAddPlayer(props.player)}
                 >
-                <FontAwesomeIcon icon={faFutbol}></FontAwesomeIcon> Add Player</button>
+                <FontAwesomeIcon icon={faBowlingBall}></FontAwesomeIcon> Add Player</button>
             </div>
         </div>
     );
