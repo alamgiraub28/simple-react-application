@@ -1,0 +1,10 @@
+
+.playerList{
+    margin: 10px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+.btn{
+    width: 180px;
+}
